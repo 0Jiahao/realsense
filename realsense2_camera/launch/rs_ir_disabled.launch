@@ -25,7 +25,7 @@
   <arg name="depth_fps"           default="30"/>
   <arg name="infra_fps"           default="30"/>
   <arg name="color_fps"           default="30"/>
-  <arg name="gyro_fps"            default="400"/>
+  <arg name="gyro_fps"            default="200"/>
   <arg name="accel_fps"           default="250"/>
   <arg name="enable_gyro"         default="true"/>
   <arg name="enable_accel"        default="true"/>
@@ -33,7 +33,7 @@
   <arg name="enable_pointcloud"   default="false"/>
   <arg name="enable_sync"         default="true"/>
   <arg name="align_depth"         default="true"/>
-  <arg name="unite_imu_method"    default="copy"/>
+  <arg name="unite_imu_method"    default="linear_interpolation"/>
   <arg name="filters"             default=""/>
   <arg name="hold_back_imu_for_frames" default="true"/>
 
